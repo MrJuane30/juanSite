@@ -1,0 +1,12 @@
+body {
+    font-family: 'Kiwi Maru', serif;
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+.logo {
+    height: 10%;
+    width: 10%;
+}
