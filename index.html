@@ -21,6 +21,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="./js/array.js"></script>
+    <script src="./js/array2.js"></script>
     <title>JuanSite</title>
 </head>
 
@@ -38,7 +39,10 @@
                     <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#section1">Glossary<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#section1">Glossary 1<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#section2">Glossary 2<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
@@ -66,6 +70,39 @@
                 <h4 class="tex-justify">I hope you like this website and it can be used to host more future glossaries!
                     regards!</h4>
             </div>
+        </div>
+    </div>
+    <div class="container mb-10" id="section2">
+        <h1 class="text-center">GLOSSARY #2</h1>
+        <div class="row">
+                <table class="table table-bordered table-responsive-md">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="text-center">Word</th>
+                            <th scope="col" class="text-center">Part of speech</th>
+                            <th scope="col" class="text-center">Translation</th>
+                            <th scope="col" class="text-center">Example</th>
+                            <th scope="col" class="text-center">Definition</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla">
+                        <tr>
+                            <td scope="row" id="word2">press "next" to start</td>
+                            <td scope="row" id="partso">press "next" to start</td>
+                            <td id="def2">press "next" to start</td>
+                            <td id="trans2">press "next" to start</td>
+                            <td id="exam2">press "next" to start</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div class="row">
+            <button id="decremento2" type="button" class="btn btn-danger col-md-3"
+                onclick="regresarDatos()">Return</button>
+            <div class="col-md-6 text-center">
+                <span class="text-center">Count: <p id="count2"></p> </span>
+            </div>
+            <button id="incremento2" type="button" class="btn btn-success col-md-3" onclick="cambiarDatos()">Next</button>
         </div>
     </div>
     <div class="container mb-10" id="section1">
